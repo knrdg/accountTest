@@ -32,5 +32,5 @@ TEST_F(AccountTest, simpleWithdrawal){
 
 TEST(SingleTest, nameTest){
     Account acc("Konrad", 3500);
-    ASSERT_EQ("Konrad Gaca", acc.getName());
+    ASSERT_EQ("Konrad", acc.getName());
 }
